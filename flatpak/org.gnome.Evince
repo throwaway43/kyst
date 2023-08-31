@@ -1,9 +1,0 @@
-[Context]
-sockets=!pulseaudio
-devices=dri
-
-[Session Bus Policy]
-org.gnome.SessionManager=none
-org.gtk.vfs.*=none
-org.gnome.SettingsDaemon.MediaKeys=none
-org.freedesktop.FileManager1=none
