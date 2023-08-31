@@ -1,6 +1,6 @@
 [Context]
 shared=!ipc;!network
-sockets=!x11;!pulseaudio;!fallback-x11;!pcsc;!cups
+sockets=wayland;!x11;!pulseaudio;!fallback-x11;!pcsc;!cups
 filesystems=!host:reset
 devices=!all
 
