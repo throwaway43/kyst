@@ -1,4 +1,10 @@
 [Context]
 shared=!ipc;!network
-sockets=!fallback-x11;!x11
+sockets=!x11;!pulseaudio;!fallback-x11;!pcsc;!cups
 filesystems=!host:reset
+devices=!all
+
+[Session Bus Policy]
+org.freedesktop.secrets=none
+org.kde.kwalletd5=none
+com.canonical.AppMenu.Registrar=none
