@@ -1,9 +1,0 @@
-[Context]
-shared=ipc
-sockets=!session-bus;!pulseaudio;x11
-devices=!all;dri
-filesystems=~/.bashrc:ro;~/.gitconfig:ro;~/.cargo:ro;~/.rustup:ro;~/_Devel
-persistent=.java
-
-[Session Bus Policy]
-org.freedesktop.secrets=none
