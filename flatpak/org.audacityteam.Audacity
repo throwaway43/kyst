@@ -1,8 +1,0 @@
-[Context]
-sockets=wayland
-devices=!all;dri
-filesystems=xdg-music
-persistent=.audacity-data
-
-[System Bus Policy]
-org.freedesktop.RealtimeKit1=none
