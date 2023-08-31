@@ -1,4 +1,0 @@
-[Context]
-shared=network
-sockets=x11
-devices=!all;dri
