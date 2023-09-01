@@ -3,6 +3,7 @@ shared=!ipc;!network
 sockets=wayland;!ssh-auth;!x11;!pulseaudio;!fallback-x11;!pcsc;!cups
 filesystems=!host:reset
 devices=!all
+features=!devel
 
 [Session Bus Policy]
 org.freedesktop.secrets=none
