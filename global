@@ -1,7 +1,7 @@
 [Context]
 shared=!ipc;!network
 sockets=wayland;!ssh-auth;!x11;!pulseaudio;!fallback-x11;!pcsc;!cups
-filesystems=!host:reset
+filesystems=!host:reset;xdg-config/Kvantum:ro
 devices=!all
 features=!devel
 
