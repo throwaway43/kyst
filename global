@@ -5,6 +5,9 @@ filesystems=!host:reset;xdg-config/Kvantum:ro
 devices=!all
 features=!devel
 
+[Environment]
+QT_STYLE_OVERRIDE=kvantum
+
 [Session Bus Policy]
 org.freedesktop.secrets=none
 org.kde.kwalletd5=none
