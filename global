@@ -1,12 +1,9 @@
 [Context]
 shared=!ipc;!network
 sockets=wayland;!ssh-auth;!x11;!pulseaudio;!fallback-x11;!pcsc;!cups
-filesystems=!host:reset;xdg-config/Kvantum:ro
+filesystems=!host:reset
 devices=!all
 features=!devel
-
-[Environment]
-QT_STYLE_OVERRIDE=kvantum
 
 [Session Bus Policy]
 org.freedesktop.secrets=none
