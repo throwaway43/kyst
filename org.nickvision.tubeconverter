@@ -1,1 +1,2 @@
-test
+[Context]
+shared=network
